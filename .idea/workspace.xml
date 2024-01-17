@@ -5,67 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fdf835fd-6b9d-4bbf-b5ae-122709aa81f5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gradle/7.4.1/checksums/checksums.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.4.1/checksums/md5-checksums.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.4.1/checksums/sha1-checksums.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.4.1/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.4.1/dependencies-accessors/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.4.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.4.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.4.1/fileChanges/last-build.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.4.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.4.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.4.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.4.1/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/8.5/executionHistory/executionHistory.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/8.5/fileHashes/fileHashes.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/8.5/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/eventbraker-dashboard-api.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/eventbrakerdashboardapi/az/EventbrakerDashboardApiApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/eventbrakerdashboardapi/az/config/Dummy.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/eventbrakerdashboardapi/az/controller/Dummy.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/eventbrakerdashboardapi/az/dto/Dummy.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/eventbrakerdashboardapi/az/dto/request/Dummy.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/eventbrakerdashboardapi/az/dto/response/Dummy.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/eventbrakerdashboardapi/az/mapper/Dummy.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/eventbrakerdashboardapi/az/repository/Dummy.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/eventbrakerdashboardapi/az/service/Dummy.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/eventbrakerdashboardapi/az/service/impl/Dummy.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/resources/main/banner.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/resources/main/config/application-local.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/resources/main/config/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/tmp/bootWar/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/tmp/war/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/checkstyle/checkstyle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/eventbrakerdashboardapi/az/config/SwaggerConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/eventbrakerdashboardapi/az/controller/Dummy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/eventbrakerdashboardapi/az/dto/Dummy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/eventbrakerdashboardapi/az/dto/request/Dummy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/eventbrakerdashboardapi/az/dto/response/Dummy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/eventbrakerdashboardapi/az/entity/Dummy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/eventbrakerdashboardapi/az/mapper/Dummy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/eventbrakerdashboardapi/az/repository/Dummy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/eventbrakerdashboardapi/az/service/Dummy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/eventbrakerdashboardapi/az/service/impl/Dummy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/banner.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/config/application-local.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/config/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.5/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.5/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,7 +118,7 @@
       <workItem from="1705477593023" duration="1769000" />
       <workItem from="1705486697337" duration="59000" />
       <workItem from="1705486762988" duration="402000" />
-      <workItem from="1705487183802" duration="2382000" />
+      <workItem from="1705487183802" duration="4352000" />
     </task>
     <servers />
   </component>
