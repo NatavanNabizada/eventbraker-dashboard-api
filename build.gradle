@@ -1,36 +1,80 @@
 plugins {
-	id 'java'
-	id 'org.springframework.boot' version '2.6.1'
-	id 'io.spring.dependency-management' version '1.0.11.RELEASE'
+    id 'checkstyle'
+    id 'java'
+    id 'org.springframework.boot' version '2.6.1'
+    id 'io.spring.dependency-management' version '1.0.11.RELEASE'
+    id 'war'
+    id 'idea'
 }
 
 group = 'eventbraker-dashboard-api'
 version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '11'
 
 java {
-	sourceCompatibility = '17'
+    sourceCompatibility = '11'
 }
 
 configurations {
-	compileOnly {
-		extendsFrom annotationProcessor
-	}
+    compileOnly {
+        extendsFrom annotationProcessor
+    }
 }
 
 repositories {
-	mavenCentral()
+    mavenCentral()
+}
+
+ext {
+    set('springCloudVersion', "2021.0.4")
 }
 
 dependencies {
-	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
-	implementation 'org.springframework.boot:spring-boot-starter-jdbc'
-	implementation 'org.springframework.boot:spring-boot-starter-web'
-	compileOnly 'org.projectlombok:lombok'
-	runtimeOnly 'org.postgresql:postgresql'
-	annotationProcessor 'org.projectlombok:lombok'
-	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+    implementation 'org.springframework.boot:spring-boot-starter-jdbc'
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+
+    implementation('io.springfox:springfox-swagger-ui:2.9.2')
+    implementation("io.springfox:springfox-swagger2:2.9.2") {
+        exclude module: 'mapstruct'
+    }
+    implementation "io.springfox:springfox-bean-validators:2.9.2"
+
+    implementation 'io.github.openfeign:feign-annotation-error-decoder'
+    compileOnly 'org.projectlombok:lombok'
+    implementation 'org.springframework.boot:spring-boot-starter-validation'
+
+    compileOnly 'org.projectlombok:lombok'
+    implementation 'net.logstash.logback:logstash-logback-encoder:7.0.1'
+    implementation 'com.vladmihalcea:hibernate-types-52:2.7.0'
+    annotationProcessor 'org.springframework.boot:spring-boot-configuration-processor'
+    implementation "org.mapstruct:mapstruct:${mapstruct_version}", "org.projectlombok:lombok:${lombok_version}"
+    annotationProcessor "org.mapstruct:mapstruct-processor:${mapstruct_version}", "org.projectlombok:lombok:${lombok_version}"
+
+    runtimeOnly 'org.postgresql:postgresql'
+    annotationProcessor 'org.projectlombok:lombok'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 
-tasks.named('test') {
-	useJUnitPlatform()
+checkstyle {
+    toolVersion = "8.15"
+    configFile = file("${rootProject.projectDir}/config/checkstyle/checkstyle.xml")
+    ignoreFailures = false
+}
+
+tasks.withType(Checkstyle) {
+    reports {
+        xml.enabled true
+        html.enabled true
+    }
+}
+
+wrapper {
+    gradleVersion = '6.0.1'
+}
+
+dependencyManagement {
+    imports {
+        mavenBom "org.springframework.cloud:spring-cloud-dependencies:${springCloudVersion}"
+    }
 }
